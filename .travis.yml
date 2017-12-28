@@ -1,9 +1,7 @@
 notifications:
   email:
     recipients:
-      #- n.zaretskij@gmail.com 
       - oleksandr.shkuropat@gmail.com # Участинки
-      #- winter2007d@gmail.com
     on_success: always # default: change Отправка уведомлений на почту при успешном билде
     on_failure: always # default: always Отправка уведомлений на почту при неуспешном  билде
 language: node_js
